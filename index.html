@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../crono/css/cronometro.css" type="text/css">
+    <title>cronometro</title>
+</head>
+<body class="c-body">         
+    <div class="c-time">      
+        <div class="screen1">          
+          <h1>Reloj "Jeff"</h1>
+          <img src="../crono/image/reloj.gif" width="300px" alt="">
+          <br>
+            <span id="tiempo">00:00.00</span>
+        </div> 
+        <!-- ===========================================  -->
+        <hr>
+        <div class="screen">
+          <h1>Cronometro "Jeff"</h1>
+          <img src="../crono/image/cronometro.gif" width="300px" alt="">
+          <br>
+            <span id="time">00:00:00.00</span>
+        </div>
+        <div class="c-btn">               
+           <button id="btn-start">▶️</button>                          
+           <button id="btn-stop">⏹️</button>                             
+           <button id="btn-reset">♻️</button>
+           <button id="btn-grabar">👍</button>
+    </div> 
+    <hr>
+    <div><h2>Tiempos grabados</h2></div>
+    <div id="almacenar"></div> 
+
+  <script src="../crono/js/cronometro.js"></script>
+
+</body>
+</html>
